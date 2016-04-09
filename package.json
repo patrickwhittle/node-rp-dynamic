@@ -1,0 +1,27 @@
+{
+  "name": "node-ba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --use_strict index.js",
+    "watch": "nodemon --use_strict index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-register": "^6.7.2"
+  },
+  "dependencies": {
+    "ba-common-interface-js": "git+ssh://git@test.bookassist.com:/home/git/gitroot/ba-common-interface-js.git#v1.0.7",
+    "babel-preset-es2015-node5": "^1.2.0",
+    "express": "^4.13.4",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015-node5"
+    ]
+  }
+}
